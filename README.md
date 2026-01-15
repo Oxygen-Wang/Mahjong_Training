@@ -1,591 +1,459 @@
-# 麻将训练系统
+# 🀄️ 麻将训练系统 | Mahjong Training System
 
-为了大家能在春节麻将先人一步，讨好丈母娘成为一代雀圣。
-本项目不提供任何算法作弊的方法，意图提高人工智能
+<div align="center">
 
-一个现代化的麻将牌效率训练工具，帮助麻将爱好者系统性地提高听牌、何切、向听数等核心技能。
+**春节必备神器 | Your Secret Weapon for Chinese New Year** 🎉
 
-## 📖 项目简介
+**[🌐 在线体验 | Try It Online](https://oxygen-wang.github.io/Mahjong_Training/)** 🚀
 
-本工具旨在帮助麻将爱好者提高牌效率判断能力，通过不同难度的训练模式，循序渐进地掌握听牌、何切、向听数等核心概念。采用 Apple Design 风格的现代化界面设计，提供流畅的训练体验。
+> 为了大家能在春节麻将先人一步，讨好丈母娘成为一代雀圣！  
+> Help you dominate the mahjong table during Chinese New Year and impress your in-laws! 🏆
 
-### 为什么需要训练？
+**本项目不提供任何算法作弊的方法，意图提高人工智能（打麻将的能力）**  
+*This project does NOT provide any cheating algorithms, but aims to improve your AI (Artificial Intelligence for playing mahjong)* 😉
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Pure JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![No Build Required](https://img.shields.io/badge/Build-None-success.svg)]()
+
+</div>
+
+---
+
+## 📖 项目简介 | Project Overview
+
+**中文**  
+一个现代化的麻将牌效率训练工具，帮助麻将爱好者系统性地提高听牌、何切、向听数等核心技能。采用 Apple Design 风格的现代化界面设计，提供流畅的训练体验。无论你是麻将新手还是老手，这里都有适合你的训练模式！
+
+**English**  
+A modern mahjong tile efficiency training tool that helps mahjong enthusiasts systematically improve core skills like tenpai (waiting), discarding decisions, and shanten calculation. Featuring a sleek Apple Design-inspired interface with smooth training experiences. Whether you're a beginner or a seasoned player, there's a training mode perfect for you!
+
+### 🤔 为什么需要训练？| Why Training Matters?
+
+**中文**  
 牌效率是麻将技术的基础，通过系统训练可以：
-- 🎯 **提高读牌速度** - 快速识别牌型和待牌
-- 🧠 **优化打牌选择** - 学会在复杂局面下做出最优决策
-- 📈 **增强实战表现** - 将理论知识转化为实战能力
+- 🎯 **提高读牌速度** - 快速识别牌型和待牌，不再犹豫不决
+- 🧠 **优化打牌选择** - 学会在复杂局面下做出最优决策，告别"打错牌"的尴尬
+- 📈 **增强实战表现** - 将理论知识转化为实战能力，成为真正的"雀圣"
 
-## ✨ 功能特性
+**English**  
+Tile efficiency is the foundation of mahjong skills. Systematic training helps you:
+- 🎯 **Read Faster** - Quickly identify tile patterns and waiting tiles, no more hesitation
+- 🧠 **Make Better Decisions** - Learn to make optimal choices in complex situations, say goodbye to "wrong discards"
+- 📈 **Improve Performance** - Transform theory into practice and become a true mahjong master
 
-### 🎮 训练模块
+---
 
-1. **记牌训练** - 训练记忆场上已出现的牌，判断剩余牌数
-2. **听牌训练** - 快速识别听牌形态和待牌
-3. **何切训练** - 学习在14张牌情况下选择最优切牌
-4. **向听数训练** - 训练快速计算手牌的向听数
-5. **一向听训练** - 识别一向听牌型，找出所有有效牌
-6. **牌型分析** - 综合分析工具，输入任意手牌获得详细评估
-7. **连连看** - 点击四个相同的牌来消除，训练反应速度和牌型识别能力
+## ✨ 功能特性 | Features
 
-### 🎨 设计特点
+### 🎮 训练模块 | Training Modules
 
-- **Apple Design 风格** - 简洁优雅的现代化界面
-- **响应式设计** - 完美适配手机竖屏和桌面端
-- **流畅动画** - 细腻的交互动画和过渡效果
-- **本地存储** - 成绩自动保存，支持排行榜功能
+**中文**  
+1. **记牌训练** 🧠 - 训练记忆场上已出现的牌，判断剩余牌数（成为"人形记牌器"）
+2. **听牌训练** 🎯 - 快速识别听牌形态和待牌（一眼看穿听牌）
+3. **何切训练** ✂️ - 学习在14张牌情况下选择最优切牌（告别"打错牌"）
+4. **向听数训练** 📊 - 训练快速计算手牌的向听数（秒算距离和牌还有几步）
+5. **一向听训练** 🔍 - 识别一向听牌型，找出所有有效牌（精准把握机会）
+6. **牌型分析** 🔬 - 综合分析工具，输入任意手牌获得详细评估（你的私人麻将教练）
+7. **连连看** 🎮 - 点击四个相同的牌来消除，训练反应速度和牌型识别能力（轻松有趣的训练）
 
-## 🚀 快速开始
+**English**  
+1. **Memory Training** 🧠 - Train to remember tiles on the table and calculate remaining tiles (become a "human tile counter")
+2. **Tenpai Training** 🎯 - Quickly identify tenpai patterns and waiting tiles (see tenpai at a glance)
+3. **Discard Training** ✂️ - Learn optimal discarding decisions with 14 tiles (no more wrong discards)
+4. **Shanten Training** 📊 - Train rapid calculation of shanten count (calculate distance to tenpai in seconds)
+5. **One-Shanten Training** 🔍 - Identify one-shanten patterns and find all effective tiles (seize opportunities precisely)
+6. **Tile Analysis** 🔬 - Comprehensive analysis tool for any hand (your personal mahjong coach)
+7. **Match Game** 🎮 - Click four identical tiles to eliminate them, training reaction speed and tile recognition (fun and relaxing training)
 
-### 使用方式
+### 🎨 设计特点 | Design Features
 
+- **Apple Design 风格** - 简洁优雅的现代化界面，看着就舒服
+- **响应式设计** - 完美适配手机竖屏和桌面端，随时随地训练
+- **流畅动画** - 细腻的交互动画和过渡效果，训练也是一种享受
+- **本地存储** - 成绩自动保存，支持排行榜功能，见证自己的进步
+
+- **Apple Design Style** - Clean, elegant modern interface that's a joy to use
+- **Responsive Design** - Perfect for mobile portrait and desktop, train anywhere
+- **Smooth Animations** - Delicate interactive animations and transitions
+- **Local Storage** - Auto-save scores with leaderboard support, track your progress
+
+---
+
+## 🚀 快速开始 | Quick Start
+
+### 🌐 在线体验 | Online Demo
+
+**中文**  
+🎉 **最简单的方式：直接在线体验！** 无需安装任何环境，点击即可开始训练：
+
+**[👉 立即体验 | Try Now](https://oxygen-wang.github.io/Mahjong_Training/)** 🚀
+
+**English**  
+🎉 **Easiest way: Try it online!** No installation needed, just click and start training:
+
+**[👉 Try It Now | 立即体验](https://oxygen-wang.github.io/Mahjong_Training/)** 🚀
+
+---
+
+### 本地运行 | Local Development
+
+### 使用方式 | Usage
+
+**中文**  
 这是一个纯前端网页应用，由于使用了 ES6 模块，**必须通过 HTTP 服务器运行**，不能直接双击打开 HTML 文件。
 
-**本地服务器（必须）**
+**English**  
+This is a pure frontend web application. Since it uses ES6 modules, **you MUST run it through an HTTP server**. You cannot simply double-click the HTML file.
 
-1. **使用 Python（推荐）**
-   
-   在项目根目录下打开终端/命令行，运行：
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   
-   # 或 Windows 用户可以直接双击 启动服务器.bat 文件
-   ```
-   
-   然后在浏览器访问：
-   ```
-   http://localhost:8000
-   ```
-   
-2. **使用 Node.js**
-   ```bash
-   npx http-server
-   ```
-   
-   然后在浏览器访问显示的地址（通常是 http://localhost:8080）
+### 本地服务器（必须）| Local Server (Required)
 
-3. **Windows 用户快速启动**
-   - 双击项目根目录下的 `启动服务器.bat` 文件
-   - 等待服务器启动后，在浏览器访问 http://localhost:8000
+#### 1. 使用 Python（推荐）| Using Python (Recommended)
 
-3. **部署到服务器**
-   
-   将整个项目文件夹上传到任何静态网站托管服务（如 GitHub Pages、Netlify、Vercel 等）即可。
+**中文**  
+在项目根目录下打开终端/命令行，运行：
 
-## 📁 项目结构
+```bash
+# Python 3
+python -m http.server 8000
+
+# 或 Windows 用户可以直接双击 启动服务器.bat 文件
+```
+
+然后在浏览器访问：`http://localhost:8000`
+
+**English**  
+Open terminal/command line in the project root directory and run:
+
+```bash
+# Python 3
+python -m http.server 8000
+
+# Or Windows users can double-click 启动服务器.bat
+```
+
+Then visit in your browser: `http://localhost:8000`
+
+#### 2. 使用 Node.js | Using Node.js
+
+```bash
+npx http-server
+```
+
+然后在浏览器访问显示的地址（通常是 http://localhost:8080）  
+Then visit the displayed address in your browser (usually http://localhost:8080)
+
+#### 3. Windows 用户快速启动 | Quick Start for Windows
+
+**中文**  
+- 双击项目根目录下的 `启动服务器.bat` 文件
+- 等待服务器启动后，在浏览器访问 http://localhost:8000
+
+**English**  
+- Double-click the `启动服务器.bat` file in the project root
+- Wait for the server to start, then visit http://localhost:8000 in your browser
+
+#### 4. 部署到服务器 | Deploy to Server
+
+**中文**  
+将整个项目文件夹上传到任何静态网站托管服务（如 GitHub Pages、Netlify、Vercel 等）即可。
+
+**English**  
+Upload the entire project folder to any static website hosting service (GitHub Pages, Netlify, Vercel, etc.).
+
+---
+
+## 📁 项目结构 | Project Structure
 
 ```
 Mahjong/
-├── index.html              # 主入口页面
-├── css/                    # 样式文件
-│   ├── common.css         # 通用样式
-│   ├── components.css     # 组件样式
-│   └── trainers.css       # 训练模块样式
-├── js/                     # JavaScript 代码
-│   ├── main.js            # 主入口，路由和模式切换
-│   ├── utils/             # 工具函数库
-│   │   ├── tile-utils.js  # 麻将牌工具函数
-│   │   ├── storage.js     # localStorage 封装
-│   │   └── timer.js       # 计时器工具
-│   ├── trainers/          # 训练模块
-│   │   ├── memory-trainer.js      # 记牌训练
-│   │   ├── tenpai-trainer.js      # 听牌训练
-│   │   ├── heqie-trainer.js       # 何切训练
-│   │   ├── shanten-trainer.js     # 向听数训练
-│   │   ├── one-shanten-trainer.js # 一向听训练
-│   │   ├── analysis.js            # 牌型分析
-│   │   └── match-trainer.js        # 连连看
-│   └── components/        # 可复用组件
-│       ├── tile-display.js   # 麻将牌展示组件
-│       ├── leaderboard.js    # 排行榜组件
-│       └── config-panel.js   # 配置面板组件
-├── svg_materials/         # SVG 资源文件
-│   ├── tong*.svg         # 筒子牌
-│   ├── tiao*.svg         # 条子牌
-│   ├── wan*.svg          # 万子牌
-│   └── ...               # 其他牌
-├── export_svg_from_md.py # SVG 导出工具（可选）
-└── README.md             # 项目说明文档
+├── index.html              # 主入口页面 | Main entry page
+├── css/                    # 样式文件 | Stylesheets
+│   ├── common.css         # 通用样式 | Common styles
+│   ├── components.css     # 组件样式 | Component styles
+│   └── trainers.css       # 训练模块样式 | Trainer styles
+├── js/                     # JavaScript 代码 | JavaScript code
+│   ├── main.js            # 主入口，路由和模式切换 | Main entry, routing
+│   ├── utils/             # 工具函数库 | Utility functions
+│   │   ├── tile-utils.js  # 麻将牌工具函数 | Tile utilities
+│   │   ├── storage.js     # localStorage 封装 | Storage wrapper
+│   │   └── timer.js       # 计时器工具 | Timer utility
+│   ├── trainers/          # 训练模块 | Training modules
+│   │   ├── memory-trainer.js      # 记牌训练 | Memory training
+│   │   ├── tenpai-trainer.js      # 听牌训练 | Tenpai training
+│   │   ├── heqie-trainer.js       # 何切训练 | Discard training
+│   │   ├── shanten-trainer.js     # 向听数训练 | Shanten training
+│   │   ├── one-shanten-trainer.js # 一向听训练 | One-shanten training
+│   │   ├── analysis.js            # 牌型分析 | Tile analysis
+│   │   └── match-trainer.js        # 连连看 | Match game
+│   └── components/        # 可复用组件 | Reusable components
+│       ├── tile-display.js   # 麻将牌展示组件 | Tile display
+│       ├── leaderboard.js    # 排行榜组件 | Leaderboard
+│       └── config-panel.js   # 配置面板组件 | Config panel
+├── svg_materials/         # SVG 资源文件 | SVG resources
+└── README.md             # 项目说明文档 | This file
 ```
 
-## 🎯 使用指南
+---
 
-### 通用设置
+## 🎯 使用指南 | User Guide
 
+### 通用设置 | General Settings
+
+**中文**  
 在开始训练之前，您可以根据自己的水平调整以下参数：
-
 - **牌数选择** - 根据训练模式不同，可选择 13 张牌或 14 张牌模式
 - **难度级别** - 从简单到困难，不同难度会影响手牌的复杂程度
 - **倒计时** - 可以设置答题时间限制，模拟实战压力
 
-### 快捷键操作
-
-- `1-9` - 快速选择对应数字的牌
-- `Enter` - 确认提交答案
-
-### 训练模式说明
-
-#### 记牌训练
-
-训练记忆场上已出现的牌，判断剩余牌数。这是基础训练，帮助提高对牌堆的感知能力。
-
-##### 功能需求
-
-**核心功能：**
-- 系统随机生成场上已出现的牌，显示在界面上
-- 用户需要在限定时间内记忆这些牌
-- 根据记忆填写每种牌还剩几张（每种牌总共 4 张）
-- 提交答案后查看结果和详细分析
-
-**牌种说明：**
-- **万子牌**：一万至九万（共 9 种，每种 4 张）
-- **筒子牌**：一筒至九筒（共 9 种，每种 4 张）
-- **条子牌**：一条至九条（共 9 种，每种 4 张）
-- **字牌**：东、南、西、北、白、发、中（共 7 种，每种 4 张）
-- 总计 34 种牌，每种牌在牌堆中都有 4 张
-
-**操作方式：**
-
-1. **记忆阶段界面**
-   - 系统显示场上已出现的牌
-   - 显示倒计时，提醒剩余记忆时间
-   - 可以反复查看已出现的牌（训练模式）
-   - 记忆时间结束后自动跳转到答题界面
-
-2. **答题界面布局**
-   - **界面铺满设计**：根据选择的牌型种类，界面铺满显示所有需要记忆的牌型
-     - **一种牌型**：显示该牌型的所有牌种（如万子：一万到九万，共9个牌种）
-     - **两种牌型**：分区域显示两种牌型的所有牌种
-     - **三种牌型**：分区域显示三种牌型的所有牌种
-     - **全部牌型**：分区域显示四种牌型（万子、筒子、条子、字牌）
-   - **牌型分组显示**：按牌型类别分组，每组用标题区分（如"万子牌"、"筒子牌"等）
-   - **每个牌种显示**：
-     - 显示牌种的图标/名称
-     - 显示当前输入的剩余数量（0-4）
-     - 高亮显示已输入数量的牌种
-     - 未输入的牌种显示为待填写状态
-
-3. **交互方式**
-   - **鼠标操作**：
-     - **左键点击牌种**：增加剩余数量（0 → 1 → 2 → 3 → 4 → 0 循环）
-     - **右键点击牌种**：减少剩余数量（4 → 3 → 2 → 1 → 0 → 4 循环）
-     - **点击提交按钮**：提交答案
-   - **键盘操作**：
-     - **Tab / 方向键**：切换选中的牌种（高亮显示当前选中）
-     - **数字键 1-9**：为当前选中的牌种快速输入对应数量（按一次计一次）
-     - **数字键 0**：将当前选中的牌种设置为 0 张剩余
-     - **Enter**：提交答案（或点击提交按钮）
-     - **Esc**：重置当前选中的牌种为 0
-     - **Backspace**：清空当前选中的牌种
-   - **批量操作**（可选）：
-     - **Ctrl + 左键**：多选多个牌种，统一设置数量
-     - **Shift + 左键**：选择连续范围的牌种
-
-4. **视觉反馈**
-   - **数量显示**：每个牌种下方/旁边显示当前输入的剩余数量（0-4）
-   - **状态指示**：
-     - 未输入：灰色/半透明显示
-     - 已输入：正常颜色显示，数量用数字标识
-     - 当前选中：高亮边框或背景色突出显示
-   - **进度提示**：显示已填写的牌种数量 / 总牌种数量
-   - **时间显示**：答题界面顶部显示剩余答题时间（挑战模式）
-
-5. **时间设置**
-   - 可自定义调整记忆时间（5-360 秒）
-   - 支持不同难度级别预设时间
-   - 实时显示剩余时间倒计时
-
-6. **模式选择**
-   - **训练模式**：
-     - 无时间限制
-     - 可以反复查看和记忆已出现的牌
-     - 适合初学者和日常练习
-     - 提供提示和辅助功能
-   - **挑战模式**：
-     - 严格计时，时间到自动提交
-     - 记忆阶段结束后隐藏已出现的牌
-     - 模拟实战压力环境
-     - 适合进阶训练和水平测试
-     - 记录成绩和排行榜
-
-##### 训练配置
-
-**牌型种类设置：**
-- **一种牌型** - 只训练单一牌型（万子/筒子/条子/字牌任选其一）
-- **两种牌型** - 训练两种牌型组合（如万子+筒子、条子+字牌等）
-- **三种牌型** - 训练三种牌型组合（如万子+筒子+条子等）
-- **全部牌型** - 训练所有四种牌型（万子+筒子+条子+字牌），难度最高
-
-**难度级别：**
-- **简单** - 出现牌数较少（10-15 张），记忆时间充足（30-60 秒）
-- **中等** - 出现牌数适中（15-25 张），记忆时间适中（20-40 秒）
-- **困难** - 出现牌数较多（25-35 张），记忆时间紧张（10-20 秒）
-- **专家** - 出现牌数很多（35-45 张），记忆时间极短（5-10 秒）
-
-**组合说明：**
-训练难度 = 牌型种类数量 × 难度级别
-- 例如：一种牌型 + 简单难度 = 最容易
-- 例如：全部牌型 + 专家难度 = 最困难
-
-**评分标准：**
-- **完全正确**：所有牌种剩余数量都准确 → 满分（100 分）
-- **部分正确**：部分牌种准确 → 按准确率计算得分（准确率 × 100）
-- **时间奖励**：在规定时间内完成可获得额外加分（剩余时间 × 系数）
-- **连续正确**：连续答对可获得连击奖励（连击数 × 额外分数）
-- **错误惩罚**：每错一种牌扣除相应分数
-
-##### 训练指导
-
-**训练步骤：**
-1. 选择训练模式（训练模式/挑战模式）
-2. 选择牌型种类（一种/两种/三种/全部）
-3. 选择难度级别（简单/中等/困难/专家）
-4. 设置记忆时间（可选，或使用预设时间）
-5. **记忆阶段**：观察并记忆场上已出现的牌
-   - 系统显示已出现的牌，开始倒计时
-   - 在限定时间内记忆所有牌种的出现数量
-   - 记忆时间结束后自动跳转到答题界面
-6. **答题阶段**：在答题界面填写每种牌的剩余数量
-   - 界面铺满显示所有需要记忆的牌型
-   - 使用鼠标或键盘为每个牌种输入剩余数量（0-4）
-   - 可以随时修改已输入的数量
-   - 检查确认所有牌种都已填写（可选提示）
-7. **提交答案**：点击提交按钮或按 Enter 键
-8. **查看结果**：查看详细分析和成绩
-   - 显示正确答案和您的答案对比
-   - 显示准确率和得分
-   - 显示错误分析和改进建议
-9. 根据分析结果调整训练策略，继续下一轮训练
-
-**训练技巧：**
-
-- **分组记忆** - 按牌种（万、筒、条、字牌）分组记忆，提高效率
-- **数量估算** - 先估算大致数量，再精确记忆具体牌种
-- **关联记忆** - 利用牌的组合关系（如顺子、刻子）辅助记忆
-- **重点标记** - 优先记忆出现次数多的牌种，这些更容易出错
-- **系统化方法** - 按照固定顺序（如从一万到九万，再到筒、条、字牌）记忆
-
-**常见错误分析：**
-- **数量偏差** - 对某些牌种的数量判断不准确，需要加强该牌种的记忆训练
-- **遗漏牌种** - 忘记某些已出现的牌种，建议采用系统化的记忆方法
-- **时间不足** - 记忆时间不够导致遗漏，可适当降低难度或延长记忆时间
-- **混淆牌种** - 将不同牌种的数量记混，需要加强牌种识别训练
-
-**进阶建议：**
-- **初学者**：从简单难度、训练模式开始，逐步提高记忆速度和准确性
-- **中级玩家**：挑战中等难度，重点训练快速记忆能力，尝试挑战模式
-- **高级玩家**：尝试困难或专家难度，模拟实战中的快速记牌场景
-- **训练频率**：建议每天训练 10-20 分钟，保持记忆能力的持续提升
-- **记录追踪**：定期查看成绩记录，分析薄弱环节，针对性加强训练
-
-
-
-
-
-#### 听牌训练
-
-听牌训练帮助您快速识别听牌形态和待牌。这是牌效率训练的基础，掌握听牌识别是提高麻将水平的关键。
-
-**训练步骤：**
-1. 系统随机生成一手听牌的 7 10 13 张牌
-2. 观察手牌，判断待牌
-3. 点击或使用快捷键选择待牌（待选牌为灰色）  
-4. 提交答案查看结果
-
-##### 听牌种类
-
-听牌是麻将中非常重要的概念，指手牌距离和牌只差一张牌的状态。根据待牌的数量和位置，听牌可以分为多种类型：
-
-**1. 两面听（双面听）**
-
-最常见的听牌类型，待牌为连续数字的两端。
-
-**示例：** 待 4筒 或 7筒
-- 手牌：m123, m456, m789（3个顺子），s88（对子），p56（搭子）
-- 分解：p56 是两面搭子，听 4筒 和 7筒
-- 特点：待牌数量为 2 张，和牌概率较高
-
-**2. 单骑听（单吊）**
-
-只待一张特定的牌，通常是对子中的一张。
-
-**示例：** 待 9筒
-- 手牌：m111, m222, m333（3个刻子），p123（顺子），p9（单张）
-- 分解：p9 是单张，需要再摸一张 9筒 组成对子
-- 特点：待牌数量为 1 张，和牌概率较低，但容易改听
-
-**3. 三面听**
-
-待牌为三张连续的牌，通常由特殊牌型组成。
-
-**示例：** 待 1万、4万 或 7万
-- 手牌：m23456（五连张），p123, s123（2个顺子），p99（对子）
-- 分解：
-  - m234 + m56（搭子，听 4、7）
-  - m23 + m456（搭子，听 1、4）
-  - 综合听 1、4、7 三张
-- 特点：待牌数量为 3 张，和牌概率很高
-
-**4. 嵌张听（坎张听）**
-
-待牌为两张连续数字中间的那张牌。
-
-**示例：** 待 5筒
-- 手牌：m123, m456, m789（3个顺子），s88（对子），p46（嵌张搭子）
-- 分解：p46 是嵌张搭子，听中间的 5筒
-- 特点：待牌数量为 1 张，和牌概率较低
-
-**5. 边张听**
-
-待牌为顺子的边张（1 或 9）。
-
-**示例：** 待 3筒
-- 手牌：m123, m456, m789（3个顺子），s88（对子），p12（边张搭子）
-- 分解：p12 是边张搭子，听 3筒
-- 特点：待牌数量为 1 张，和牌概率较低
-
-**6. 双碰听（对倒听）**
-
-待牌为两个对子中的任意一张。
-
-**示例：** 待 5筒 或 8条
-- 手牌：m123, m456, m789（3个顺子），p55（对子），s88（对子）
-- 分解：p55 和 s88 两个对子，听 5筒 或 8条
-- 特点：待牌数量为 2 张，但每种只有 2 张剩余，实际和牌概率与两面听相当
-
-##### 训练技巧
-
-- **从简单开始** - 建议从简单难度开始，先熟悉常见听牌形态（两面听、单骑听）
-- **识别牌型** - 注意区分两面听、嵌张听、边张听、单骑听、双碰听等不同听牌类型
-- **逐步提高** - 逐步提高难度，挑战复杂牌型（三面听、多面听）
-- **快速判断** - 多练习可以提高识别速度，在实战中更快做出判断
-- **牌型分解** - 学会将手牌分解为顺子、刻子、对子、搭子，快速识别听牌形态
-
-#### 何切训练
-
-学习在 14 张牌的情况下，选择最优的切牌方案。这是实战中最常用的技能之一。
-练习每一打的切牌选择（何切）。通过科学的进张数分析，掌握最大机率的打法，提升牌效。
-
-**训练步骤：**
-1. 系统生成 14 张牌
-2. 分析手牌，找出应该打出的牌
-3. 选择要切的牌
-4. 查看正确答案和解析
-
-#### 向听数训练
-
-训练快速计算手牌的向听数。向听数是判断手牌好坏的重要指标，向听数越小，距离和牌越近。
-
-**训练步骤：**
-1. 观察手牌
-2. 计算距离听牌还差几步
-3. 输入向听数
-4. 查看答案
-
-#### 一向听训练
-
-识别距离听牌只差一步的牌型，并找出所有能让手牌进入听牌的有效牌。
-
-**训练步骤：**
-1. 观察 13 张牌
-2. 判断有效牌（能让手牌进入听牌的牌）
-3. 选择所有有效牌
-4. 提交答案
-
-#### 牌型分析
-
-综合分析工具，输入任意手牌获得详细的牌效率评估。
-
-**使用方法：**
-1. 输入或选择手牌（支持 13 张或 14 张牌）
-2. 点击分析按钮
-3. 查看详细的分析结果
-
-**分析内容包括：**
-- 向听数：当前手牌距离听牌还差几步
-- 有效牌：能让向听数减少的所有牌种及数量
-- 推荐切牌：在 14 张牌模式下，分析每种切牌方案的效果
-- 听牌信息：如果已听牌，显示所有待牌
-- 牌型评估：手牌的整体效率和改进建议
-
-#### 连连看
-
-通过点击四个相同的牌来消除，训练反应速度和牌型识别能力。这是一个轻松有趣的训练模式，在游戏中提高对麻将牌的熟悉程度。
-
-**游戏规则：**
-- 游戏界面为 16 列 n 行的网格布局（每行16个牌）
-- 随机生成各种麻将牌
-- 点击四个相同的牌即可消除
-- 消除所有牌即可获胜
-- 支持计时和排名功能
-
-**训练步骤：**
-1. 选择游戏模式（训练模式/挑战模式）
-2. 选择难度级别（简单/中等/困难/专家）
-3. 观察网格中的牌，找出四个相同的牌
-4. 依次点击四个相同的牌进行消除
-5. 继续消除，直到所有牌都被消除
-6. 查看完成时间和得分
-
-##### 难度级别
-
-**简单难度：**
-- 牌型：包含筒子、条子、万字和所有字牌（东、南、西、北、白、发、中）
-- 网格：4 行 × 16 列 = 64 张牌
-- 牌种：16 种不同的牌，每种 4 张（包含7种字牌）
-- 适合：初学者，熟悉基本牌型和字牌
-
-**中等难度：**
-- 牌型：包含筒子、条子、万字和所有字牌（东、南、西、北、白、发、中）
-- 网格：5 行 × 16 列 = 80 张牌
-- 牌种：20 种不同的牌，每种 4 张（包含7种字牌）
-- 适合：有一定基础的玩家
-
-**困难难度：**
-- 牌型：包含筒子、条子、万字和所有字牌（东、南、西、北、白、发、中）
-- 网格：6 行 × 16 列 = 96 张牌
-- 牌种：24 种不同的牌，每种 4 张（包含7种字牌）
-- 适合：进阶玩家，提高识别速度
-
-**专家难度：**
-- 牌型：包含所有牌型（筒、条、万、字牌：东、南、西、北、白、发、中）
-- 网格：7 行 × 16 列 = 112 张牌
-- 牌种：28 种不同的牌，每种 4 张（包含7种字牌）
-- 适合：高级玩家，挑战极限速度
-
-##### 游戏模式
-
-**训练模式：**
-- 无时间压力，可以慢慢思考
-- 适合熟悉游戏规则和牌型
-- 可以随时重新开始
-- 不记录成绩到排行榜
-
-**挑战模式：**
-- 计时模式，追求最快完成时间
-- 成绩自动保存到排行榜
-- 可以查看历史最佳成绩
-- 适合挑战自我和竞争
-
-##### 得分系统
-
-得分计算公式：
-- 基础分数：1000 分
-- 时间奖励：300 秒 - 实际用时（秒），时间越短奖励越高
-- 难度系数：
-  - 简单：1.0 倍
-  - 中等：1.5 倍
-  - 困难：2.0 倍
-  - 专家：3.0 倍
-
-最终得分 = (基础分数 + 时间奖励) × 难度系数
-
-##### 排行榜功能
-
-- 自动记录挑战模式的成绩
-- 按得分从高到低排序
-- 显示用时、难度、日期等信息
-- 保留历史前 10 名记录
-- 可以随时查看排行榜
-
-##### 训练技巧
-
-**快速识别：**
-- 先快速扫描整个网格，找出出现次数多的牌型
-- 优先消除容易找到的牌组
-- 注意观察牌的分布位置
-
-**策略建议：**
-- 从边缘开始，逐步向中心消除
-- 避免同时选中多个不同的牌
-- 保持冷静，不要急躁
-
-**进阶训练：**
-- 尝试不看牌面，仅凭位置记忆
-- 挑战最短完成时间
-- 在不同难度间切换，提高适应性
-
-##### 功能特点
-
-- **16 列布局**：固定 16 列（每行16个牌），行数根据难度调整（4-7 行）
-- **全部牌型**：支持所有麻将牌型（筒、条、万、字牌）
-- **随机生成**：每次游戏牌的位置都不同，增加挑战性
-- **计时功能**：实时显示游戏用时
-- **进度显示**：显示已消除牌数和总牌数
-- **排名系统**：记录最佳成绩，支持查看排行榜
-- **响应式设计**：适配不同屏幕尺寸
-
-## 🛠️ 技术栈
-
-- **前端框架** - 纯原生 JavaScript (ES6+)
-- **样式** - CSS3 (Apple Design 风格)
-- **存储** - localStorage (本地数据持久化)
-- **资源** - SVG 矢量图形
-
-## 📝 开发说明
-
-### 环境要求
-
-- 现代浏览器（Chrome、Firefox、Safari、Edge 等）
-- 支持 ES6+ 模块的浏览器
-- 无需 Node.js 或任何构建工具
-
-### 添加新的训练模块
-
-1. 在 `js/trainers/` 目录下创建新的训练器文件
-2. 实现标准的训练器接口：
-   ```javascript
-   export default {
-     async init(container) {
-       // 初始化训练器
-     },
-     onShow() {
-       // 显示时的回调
-     }
-   };
-   ```
-3. 在 `js/main.js` 中注册新模块
-4. 在 `index.html` 中添加导航按钮
-
-### SVG 资源管理
-
-项目包含一个 Python 脚本 `export_svg_from_md.py`，用于从 Markdown 文件中导出 SVG 资源。如需添加新的牌型资源，可以：
-
-1. 在对应的 Markdown 文件中添加 SVG 内容
-2. 运行脚本导出：
-   ```bash
-   python export_svg_from_md.py
-   ```
-
-## 📊 功能路线图
-
-- [x] 基础架构和 UI 设计
-- [x] 记牌训练模块
-- [x] 听牌训练模块
-- [x] 何切训练模块
-- [x] 向听数训练模块
-- [x] 一向听训练模块
-- [x] 牌型分析工具
-- [x] 连连看游戏
-- [ ] 深色模式支持
-- [ ] 多语言支持
-- [ ] 数据导出功能
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 📄 许可证
-
-本项目采用 MIT 许可证。
-
-## 🙏 致谢
-
-感谢所有为麻将技术发展做出贡献的社区和开发者。
+**English**  
+Before starting training, you can adjust these parameters based on your skill level:
+- **Tile Count** - Choose 13-tile or 14-tile mode depending on training type
+- **Difficulty Level** - From easy to hard, affects hand complexity
+- **Timer** - Set time limits to simulate real-game pressure
+
+### 快捷键操作 | Keyboard Shortcuts
+
+- `1-9` - 快速选择对应数字的牌 | Quick select tiles by number
+- `Enter` - 确认提交答案 | Submit answer
 
 ---
 
-**开始训练，提升你的麻将水平！** 🀄️
+## 🎮 训练模式详解 | Training Modes Explained
 
+### 🧠 记牌训练 | Memory Training
 
+**中文**  
+训练记忆场上已出现的牌，判断剩余牌数。这是基础训练，帮助提高对牌堆的感知能力。成为"人形记牌器"，让对手刮目相看！
+
+**English**  
+Train to remember tiles on the table and calculate remaining tiles. This foundational training improves your awareness of the tile pool. Become a "human tile counter" and impress your opponents!
+
+**核心功能 | Core Features:**
+- 系统随机生成场上已出现的牌 | System randomly generates tiles on the table
+- 限定时间内记忆这些牌 | Memorize tiles within time limit
+- 填写每种牌还剩几张（每种牌总共 4 张）| Fill in remaining count for each tile type (4 tiles per type)
+- 查看详细分析和成绩 | View detailed analysis and scores
+
+**牌种说明 | Tile Types:**
+- **万子牌**：一万至九万（共 9 种，每种 4 张）| **Characters**: 1-9 (9 types, 4 each)
+- **筒子牌**：一筒至九筒（共 9 种，每种 4 张）| **Circles**: 1-9 (9 types, 4 each)
+- **条子牌**：一条至九条（共 9 种，每种 4 张）| **Bamboos**: 1-9 (9 types, 4 each)
+- **字牌**：东、南、西、北、白、发、中（共 7 种，每种 4 张）| **Honors**: East, South, West, North, White, Green, Red (7 types, 4 each)
+- 总计 34 种牌，每种牌在牌堆中都有 4 张 | Total 34 types, 4 tiles each
+
+**训练技巧 | Training Tips:**
+- **分组记忆** - 按牌种分组记忆，提高效率 | Group by tile type for efficiency
+- **系统化方法** - 按照固定顺序记忆 | Use systematic memorization order
+- **重点标记** - 优先记忆出现次数多的牌种 | Focus on frequently appearing tiles
+
+---
+
+### 🎯 听牌训练 | Tenpai Training
+
+**中文**  
+听牌训练帮助您快速识别听牌形态和待牌。这是牌效率训练的基础，掌握听牌识别是提高麻将水平的关键。一眼看穿听牌，让对手防不胜防！
+
+**English**  
+Tenpai training helps you quickly identify tenpai patterns and waiting tiles. This is the foundation of tile efficiency training. Mastering tenpai recognition is key to improving your mahjong skills. See tenpai at a glance and catch your opponents off guard!
+
+**听牌种类 | Tenpai Types:**
+
+1. **两面听（双面听）| Two-Sided Wait**
+   - 最常见的听牌类型 | Most common tenpai type
+   - 待牌为连续数字的两端 | Waiting on both ends of a sequence
+   - 待牌数量为 2 张，和牌概率较高 | 2 waiting tiles, higher winning probability
+
+2. **单骑听（单吊）| Single Wait**
+   - 只待一张特定的牌 | Waiting on one specific tile
+   - 待牌数量为 1 张，和牌概率较低 | 1 waiting tile, lower probability
+
+3. **三面听 | Three-Sided Wait**
+   - 待牌为三张连续的牌 | Waiting on three consecutive tiles
+   - 待牌数量为 3 张，和牌概率很高 | 3 waiting tiles, very high probability
+
+4. **嵌张听（坎张听）| Closed Wait**
+   - 待牌为两张连续数字中间的那张牌 | Waiting on the middle tile between two consecutive tiles
+   - 待牌数量为 1 张 | 1 waiting tile
+
+5. **边张听 | Edge Wait**
+   - 待牌为顺子的边张（1 或 9）| Waiting on edge tiles (1 or 9)
+   - 待牌数量为 1 张 | 1 waiting tile
+
+6. **双碰听（对倒听）| Pair Wait**
+   - 待牌为两个对子中的任意一张 | Waiting on either tile from two pairs
+   - 待牌数量为 2 张 | 2 waiting tiles
+
+---
+
+### ✂️ 何切训练 | Discard Training
+
+**中文**  
+学习在 14 张牌的情况下，选择最优的切牌方案。这是实战中最常用的技能之一。通过科学的进张数分析，掌握最大机率的打法，提升牌效。告别"打错牌"的尴尬！
+
+**English**  
+Learn to choose optimal discarding decisions with 14 tiles. This is one of the most practical skills. Through scientific tile acceptance analysis, master the highest probability plays and improve tile efficiency. Say goodbye to wrong discards!
+
+**训练步骤 | Training Steps:**
+1. 系统生成 14 张牌 | System generates 14 tiles
+2. 分析手牌，找出应该打出的牌 | Analyze hand and find the best discard
+3. 选择要切的牌 | Select the tile to discard
+4. 查看正确答案和解析 | View correct answer and analysis
+
+---
+
+### 📊 向听数训练 | Shanten Training
+
+**中文**  
+训练快速计算手牌的向听数。向听数是判断手牌好坏的重要指标，向听数越小，距离和牌越近。秒算距离和牌还有几步，成为"人形计算器"！
+
+**English**  
+Train rapid calculation of shanten count. Shanten is a key indicator of hand quality - the lower the shanten, the closer to tenpai. Calculate distance to tenpai in seconds and become a "human calculator"!
+
+**训练步骤 | Training Steps:**
+1. 观察手牌 | Observe the hand
+2. 计算距离听牌还差几步 | Calculate steps to tenpai
+3. 输入向听数 | Enter shanten count
+4. 查看答案 | View answer
+
+---
+
+### 🔍 一向听训练 | One-Shanten Training
+
+**中文**  
+识别距离听牌只差一步的牌型，并找出所有能让手牌进入听牌的有效牌。精准把握机会，不错过任何和牌的可能！
+
+**English**  
+Identify one-shanten patterns and find all effective tiles that can bring the hand to tenpai. Seize opportunities precisely and never miss a winning chance!
+
+**训练步骤 | Training Steps:**
+1. 观察 13 张牌 | Observe 13 tiles
+2. 判断有效牌（能让手牌进入听牌的牌）| Identify effective tiles (tiles that bring hand to tenpai)
+3. 选择所有有效牌 | Select all effective tiles
+4. 提交答案 | Submit answer
+
+---
+
+### 🔬 牌型分析 | Tile Analysis
+
+**中文**  
+综合分析工具，输入任意手牌获得详细的牌效率评估。你的私人麻将教练，随时为你分析手牌！
+
+**English**  
+Comprehensive analysis tool that provides detailed tile efficiency evaluation for any hand. Your personal mahjong coach, always ready to analyze!
+
+**使用方法 | Usage:**
+1. 输入或选择手牌（支持 13 张或 14 张牌）| Input or select hand (supports 13 or 14 tiles)
+2. 点击分析按钮 | Click analyze button
+3. 查看详细的分析结果 | View detailed analysis
+
+**分析内容包括 | Analysis Includes:**
+- 向听数：当前手牌距离听牌还差几步 | Shanten: Steps to tenpai
+- 有效牌：能让向听数减少的所有牌种及数量 | Effective tiles: All tiles that reduce shanten
+- 推荐切牌：在 14 张牌模式下，分析每种切牌方案的效果 | Recommended discards: Analysis of each discard option
+- 听牌信息：如果已听牌，显示所有待牌 | Tenpai info: All waiting tiles if in tenpai
+- 牌型评估：手牌的整体效率和改进建议 | Hand evaluation: Overall efficiency and improvement suggestions
+
+---
+
+### 🎮 连连看 | Match Game
+
+**中文**  
+通过点击四个相同的牌来消除，训练反应速度和牌型识别能力。这是一个轻松有趣的训练模式，在游戏中提高对麻将牌的熟悉程度。放松心情，边玩边学！
+
+**English**  
+Click four identical tiles to eliminate them, training reaction speed and tile recognition. A fun and relaxing training mode that improves your familiarity with mahjong tiles while having fun. Relax and learn while playing!
+
+**游戏规则 | Game Rules:**
+- 游戏界面为 16 列 n 行的网格布局 | 16 columns × n rows grid layout
+- 随机生成各种麻将牌 | Randomly generated mahjong tiles
+- 点击四个相同的牌即可消除 | Click four identical tiles to eliminate
+- 消除所有牌即可获胜 | Eliminate all tiles to win
+- 支持计时和排名功能 | Timer and leaderboard support
+
+**难度级别 | Difficulty Levels:**
+- **简单 | Easy**: 4 行 × 16 列 = 64 张牌，16 种牌型 | 4 rows × 16 cols = 64 tiles, 16 types
+- **中等 | Medium**: 5 行 × 16 列 = 80 张牌，20 种牌型 | 5 rows × 16 cols = 80 tiles, 20 types
+- **困难 | Hard**: 6 行 × 16 列 = 96 张牌，24 种牌型 | 6 rows × 16 cols = 96 tiles, 24 types
+- **专家 | Expert**: 7 行 × 16 列 = 112 张牌，28 种牌型 | 7 rows × 16 cols = 112 tiles, 28 types
+
+---
+
+## 🛠️ 技术栈 | Tech Stack
+
+- **前端框架 | Frontend**: 纯原生 JavaScript (ES6+) | Pure Vanilla JavaScript (ES6+)
+- **样式 | Styling**: CSS3 (Apple Design 风格) | CSS3 (Apple Design style)
+- **存储 | Storage**: localStorage (本地数据持久化) | localStorage (local data persistence)
+- **资源 | Resources**: SVG 矢量图形 | SVG vector graphics
+
+---
+
+## 📝 开发说明 | Development
+
+### 环境要求 | Requirements
+
+- 现代浏览器（Chrome、Firefox、Safari、Edge 等）| Modern browsers (Chrome, Firefox, Safari, Edge, etc.)
+- 支持 ES6+ 模块的浏览器 | Browser with ES6+ module support
+- 无需 Node.js 或任何构建工具 | No Node.js or build tools required
+
+### 添加新的训练模块 | Adding New Training Modules
+
+1. 在 `js/trainers/` 目录下创建新的训练器文件 | Create new trainer file in `js/trainers/`
+2. 实现标准的训练器接口 | Implement standard trainer interface
+3. 在 `js/main.js` 中注册新模块 | Register in `js/main.js`
+4. 在 `index.html` 中添加导航按钮 | Add navigation button in `index.html`
+
+---
+
+## 📊 功能路线图 | Roadmap
+
+- [x] 基础架构和 UI 设计 | Basic architecture and UI design
+- [x] 记牌训练模块 | Memory training module
+- [x] 听牌训练模块 | Tenpai training module
+- [x] 何切训练模块 | Discard training module
+- [x] 向听数训练模块 | Shanten training module
+- [x] 一向听训练模块 | One-shanten training module
+- [x] 牌型分析工具 | Tile analysis tool
+- [x] 连连看游戏 | Match game
+- [ ] 深色模式支持 | Dark mode support
+- [ ] 多语言支持 | Multi-language support
+- [ ] 数据导出功能 | Data export feature
+
+---
+
+## 🤝 贡献 | Contributing
+
+**中文**  
+欢迎提交 Issue 和 Pull Request！让我们一起让这个项目变得更好！
+
+**English**  
+Issues and Pull Requests are welcome! Let's make this project even better together!
+
+---
+
+## 📄 许可证 | License
+
+本项目采用 MIT 许可证。  
+This project is licensed under the MIT License.
+
+---
+
+## 🙏 致谢 | Acknowledgments
+
+**中文**  
+感谢所有为麻将技术发展做出贡献的社区和开发者。让我们一起传承和发扬麻将文化！
+
+**English**  
+Thanks to all communities and developers who have contributed to mahjong technique development. Let's preserve and promote mahjong culture together!
+
+---
+
+<div align="center">
+
+**开始训练，提升你的麻将水平！** 🀄️  
+**Start Training and Level Up Your Mahjong Skills!** 🀄️
+
+*愿你在麻将桌上战无不胜！*  
+*May you be invincible at the mahjong table!*
+
+</div>
