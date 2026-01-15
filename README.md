@@ -9,8 +9,8 @@
 > 为了大家能在春节麻将先人一步，讨好丈母娘成为一代雀圣！  
 > Help you dominate the mahjong table during Chinese New Year and impress your in-laws! 🏆
 
-**本项目不提供任何算法作弊的方法，意图提高人工智能（打麻将的能力）**  
-*This project does NOT provide any cheating algorithms, but aims to improve your AI (Artificial Intelligence for playing mahjong)* 😉
+**本项目不提供任何算法作弊的方法，意图提高'人工'智能（打麻将的能力）**  
+*This project does NOT provide any cheating algorithms, but aims to improve your You Intelligence for playing mahjong* 😉
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Pure JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
