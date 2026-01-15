@@ -1,0 +1,74 @@
+# Cursor AI Ignore File
+# Files and directories listed here will be excluded from AI context
+
+# Large binary files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.pptx
+*.ppt
+*.xlsx
+*.docx
+
+# SVG materials (if not needed for AI analysis)
+svg_materials/
+
+# Dependencies
+node_modules/
+venv/
+env/
+__pycache__/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+*.bak
+
+# Environment files
+.env
+.env.local
+
+# Git files
+#.git/
+#.gitignore
+
+# Editor files
+.vscode/
+.idea/
+.cursor/
+.specify/
+# OS files
+.DS_Store
+Thumbs.db
+
+test
+
+
+# ============================================
+# 如何忽略特定函数？
+# ============================================
+# .cursorignore 只能忽略文件或目录，不能直接忽略函数
+# 
+# 方案1: 忽略整个文件（如果该文件中的函数都不需要）
+# 例如: test_tenpai_generators.py
+#
+# 方案2: 将需要忽略的函数移到单独的文件中，然后忽略那个文件
+# 例如: 
+#   - 创建 ignored_functions.py 包含需要忽略的函数
+#   - 在 .cursorignore 中添加: ignored_functions.py
+#
+# 方案3: 使用代码注释标记（Cursor 可能不支持，但可以尝试）
+# 在函数上方添加注释: # @cursor-ignore 或 # CURSOR_IGNORE
+js/trainers/memory-trainer.js
+
+# Ignored utility files
+js/utils/hand-generator.js
+js/utils/tenpai-utils.js

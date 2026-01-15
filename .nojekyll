@@ -1,0 +1,3 @@
+# GitHub Pages 配置
+# 这个文件告诉 GitHub Pages 不要使用 Jekyll 处理
+# 因为项目使用原生 ES6 模块，不需要 Jekyll 编译

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>麻将训练系统</title>
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/trainers.css" />
+</head>
+<body>
+  <div class="app-root">
+    <header class="app-header">
+      <div class="app-title">麻将训练系统</div>
+      <nav class="app-nav" id="main-nav">
+        <button class="nav-btn active" data-mode="home">首页</button>
+        <button class="nav-btn" data-mode="memory">记牌训练</button>
+        <button class="nav-btn" data-mode="tenpai">听牌训练</button>
+        <button class="nav-btn" data-mode="heqie">何切训练</button>
+        <button class="nav-btn" data-mode="shanten">向听数训练</button>
+        <button class="nav-btn" data-mode="one-shanten">一向听训练</button>
+        <button class="nav-btn" data-mode="analysis">牌型分析</button>
+        <button class="nav-btn" data-mode="match">连连看</button>
+      </nav>
+    </header>
+
+    <main class="app-main">
+      <!-- 首页/模式选择 -->
+      <section id="home-section" class="content-section active">
+        <div class="welcome-card">
+          <h1>欢迎使用麻将训练系统</h1>
+          <p class="intro-text">本工具旨在帮助麻将爱好者提高牌效率判断能力，通过不同难度的训练模式，循序渐进地掌握听牌、何切、向听数等核心概念。</p>
+        </div>
+        <div class="trainer-grid">
+          <div class="trainer-card" data-mode="memory">
+            <h3>记牌训练</h3>
+            <p>训练记忆场上已出现的牌，判断剩余牌数</p>
+            <button class="btn btn-primary">开始训练</button>
+          </div>
+          <div class="trainer-card" data-mode="tenpai">
+            <h3>听牌训练</h3>
+            <p>快速识别听牌形态和待牌</p>
+            <button class="btn btn-primary">开始训练</button>
+          </div>
+          <div class="trainer-card" data-mode="heqie">
+            <h3>何切训练</h3>
+            <p>学习在14张牌情况下选择最优切牌</p>
+            <button class="btn btn-primary">开始训练</button>
+          </div>
+          <div class="trainer-card" data-mode="shanten">
+            <h3>向听数训练</h3>
+            <p>训练快速计算手牌的向听数</p>
+            <button class="btn btn-primary">开始训练</button>
+          </div>
+          <div class="trainer-card" data-mode="one-shanten">
+            <h3>一向听训练</h3>
+            <p>识别一向听牌型，找出所有有效牌</p>
+            <button class="btn btn-primary">开始训练</button>
+          </div>
+          <div class="trainer-card" data-mode="analysis">
+            <h3>牌型分析</h3>
+            <p>综合分析工具，输入任意手牌获得详细评估</p>
+            <button class="btn btn-primary">开始分析</button>
+          </div>
+          <div class="trainer-card" data-mode="match">
+            <h3>连连看</h3>
+            <p>点击四个相同的牌来消除，消除所有牌即可获胜</p>
+            <button class="btn btn-primary">开始游戏</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- 各训练模块的内容容器 -->
+      <section id="memory-section" class="content-section"></section>
+      <section id="tenpai-section" class="content-section"></section>
+      <section id="heqie-section" class="content-section"></section>
+      <section id="shanten-section" class="content-section"></section>
+      <section id="one-shanten-section" class="content-section"></section>
+      <section id="analysis-section" class="content-section"></section>
+      <section id="match-section" class="content-section"></section>
+    </main>
+  </div>
+
+  <!-- 加载所有 JS 模块 -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
